@@ -1,0 +1,10 @@
+@import "./mixins.scss";
+@import "./variables.scss";
+
+
+.about { 
+    p {
+        @include radius-block($border-radius-sm);
+    }
+}
+

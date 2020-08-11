@@ -1,0 +1,8 @@
+@import "./variables.scss";
+
+@mixin radius-block($radius) {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.164);
+    border: none;
+    border-radius: $radius;
+    padding: $padding-xl;
+}
