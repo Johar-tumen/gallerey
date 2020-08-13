@@ -10,6 +10,7 @@ import * as constants from "./constants"
 constants.TERMINAL_TEXT
 
 Header();
+Gallery();
 
 
 // *.sass, *.scss
